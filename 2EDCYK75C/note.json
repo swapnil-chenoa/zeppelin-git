@@ -1,0 +1,103 @@
+{
+  "paragraphs": [
+    {
+      "text": "%jdbc(hive)\n\nuse test;\nshow tables",
+      "user": "admin",
+      "dateUpdated": "2019-05-13 11:00:55.804",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "1": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "tab_name": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : -1"
+          },
+          {
+            "type": "TABLE",
+            "data": "tab_name\nshipping_events\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1557744976411_812673068",
+      "id": "20190513-105616_1207294710",
+      "dateCreated": "2019-05-13 10:56:16.411",
+      "dateStarted": "2019-05-13 11:00:54.977",
+      "dateFinished": "2019-05-13 11:00:55.131",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%jdbc\n",
+      "user": "admin",
+      "dateUpdated": "2019-05-13 11:00:41.099",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1557745241098_-1846551642",
+      "id": "20190513-110041_104974177",
+      "dateCreated": "2019-05-13 11:00:41.098",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "GitHub_Testing",
+  "id": "2EDCYK75C",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "livy2:shared_process": [],
+    "jdbc:admin:": [],
+    "spark2:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
