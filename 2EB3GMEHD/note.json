@@ -1,0 +1,99 @@
+{
+  "paragraphs": [
+    {
+      "text": "%jdbc(hive)\n\nshow databases;",
+      "user": "admin",
+      "dateUpdated": "2019-05-13 10:49:02.372",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "database_name": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "database_name\natlas_test\ndefault\ndmf_test\nhadoop_metrics\ninformation_schema\nk_id\nsampledb\nssb_druid\nsys\ntest\ntest1\ntestdb\ntestdb1\ntestdb3\ntestvolt\nupgdevdb1\nupgdevdb3\nupgdevdb4\nupgproddb1\nupgproddb3\nupgproddb4\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1557744519694_-648431684",
+      "id": "20190513-104839_639634190",
+      "dateCreated": "2019-05-13 10:48:39.694",
+      "dateStarted": "2019-05-13 10:49:01.139",
+      "dateFinished": "2019-05-13 10:49:01.237",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%jdbc\n",
+      "user": "admin",
+      "dateUpdated": "2019-05-13 10:49:01.130",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1557744541130_-1261345297",
+      "id": "20190513-104901_206486737",
+      "dateCreated": "2019-05-13 10:49:01.130",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Git_Test",
+  "id": "2EB3GMEHD",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "livy2:shared_process": [],
+    "jdbc:admin:": [],
+    "spark2:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
